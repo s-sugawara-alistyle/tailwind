@@ -538,3 +538,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
+
+/* 追加のcss */
+
+.title {
+  font-size: large;
+}
