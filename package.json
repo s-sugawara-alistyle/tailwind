@@ -2,11 +2,17 @@
   "name": "tailwind",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "dev": "tailwindcss -i CSS/styles.css -o CSS/styles_dist.css -w"
-    },
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.3.5"
-  }
+  },
+  "scripts": {
+    "dev": "tailwindcss -i css/styles.css -o css/styles_dist.css -w"
+  },
+  "volta": {
+    "node": "20.9.0",
+    "yarn": "1.3.2"
+  },
+  "repository": "https://github.com/s-sugawara-alistyle/tailwind.git",
+  "author": "s.sugawara <s.sugawara@alistyle.jp>"
 }
