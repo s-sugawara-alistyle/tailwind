@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i CSS/styles.css -o CSS/styles_dist.css -w",
+    "dev": "tailwindcss -i CSS/styles.css -o CSS/styles_dist.css -w"
     },
   "license": "MIT",
   "devDependencies": {
