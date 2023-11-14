@@ -12,3 +12,5 @@ if (!('theme' in localStorage) || localStorage.theme === 'system') {
   } else { // それ以外の場合
     document.documentElement.classList.remove('dark')
   }
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', mediaQueryLlistener)
